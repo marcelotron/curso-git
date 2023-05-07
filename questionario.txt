@@ -1,0 +1,42 @@
+Nome:
+
+Questionário
+
+1. Explique as diferenças entre git e github.
+
+2. a) Suponha que um aluno acaba de criar um projeto em seu computador, ele usou git e enviou para um repositório remoto no github.
+Qual a ordem correta desses comandos que ele utilizou?
+git remote add origin
+git add
+git init
+git push
+git commit
+
+b) Cite a funcionalidade de cada um desses comandos.
+
+3. Explique as principais diferenças entre repositório remoto e local. E, qual é o comando para enviar alterações do repositório local para o repositório remoto?
+
+4. Porque e como utilizar branchs em um projeto?
+
+5. Com suas palavras diga o que é um merge no git e quando deve ser usado.
+
+NOME=Marcelo Augusto Naves Cruz / Matricula=32211BSI030
+1-Git é um sistema de controle de versão distribuído que permite aos usuários rastrear e gerenciar alterações em um projeto, enquanto o GitHub é uma plataforma de hospedagem de repositórios Git na nuvem que permite aos usuários compartilhar seus projetos publicamente ou colaborar com outras pessoas em projetos privados ou públicos.
+2-
+a) A ordem correta é:
+git init (para inicializar um repositório Git local no diretório do projeto)
+git add (para adicionar arquivos ou alterações ao índice do Git)
+git commit (para confirmar as alterações e criar um snapshot)
+git remote add origin (para configurar o repositório remoto)
+git push (para enviar as alterações para o repositório remoto)
+
+b) A funcionalidade de cada comando é:
+
+git init: inicializa um novo repositório Git local;
+git add: adiciona arquivos ou alterações ao índice do Git para serem confirmados;
+git commit: confirma as alterações e cria um snapshot com uma mensagem de commit descritiva;
+git remote add origin: configura o repositório remoto para envio das alterações;
+git push: envia as alterações confirmadas para o repositório remoto.
+3-O repositório local é uma cópia do projeto em seu próprio computador, enquanto o repositório remoto é uma cópia do projeto na nuvem, que pode ser acessada por várias pessoas. O comando para enviar alterações do repositório local para o repositório remoto é git push.
+4-Branches permitem trabalhar em diferentes versões do código simultaneamente, isolando as alterações feitas em uma parte específica do projeto e facilitando a colaboração em equipe. Eles são úteis para evitar conflitos e problemas com o código principal e permitem que diferentes funcionalidades sejam desenvolvidas independentemente. O comando para criar um novo branch é git branch e para alternar entre branches é git checkout. Para mesclar o código de um branch com outro, utiliza-se git merge.
+5-Merge no Git é a união de duas ou mais branches em uma só, combinando as alterações feitas em cada uma delas. É usado quando uma funcionalidade ou correção de bug em uma branch é concluída e deve ser incorporada ao projeto principal.
